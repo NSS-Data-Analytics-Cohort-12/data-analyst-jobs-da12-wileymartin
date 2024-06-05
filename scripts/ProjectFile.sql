@@ -85,4 +85,4 @@ Where title like 'Analyst%';
 --- 12.	How many different job titles do not contain either the word ‘Analyst’ or the word ‘Analytics’? What word do these positions have in common?
 Select title 
 From data_analyst_jobs
-Where title NOT LIKE 'Analyst%'And title NOT LIKE 'Analytics%';
+Where title not like 'Analyst%';
